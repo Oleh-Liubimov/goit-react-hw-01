@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Arial",sans-serif;
+}
+.wrapper{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 90%);
+    padding-top: 20px;
+    
+}
+.userData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.userImg{
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 40%);
+}
+.userName{
+    font-weight:  bold;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.userTag,.userLocation{
+color: hsl(0, 0%, 50%);
+font-size: 20px;
+}
+.userTag{
+    margin-top: 10px;
+}
+.profileList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    flex-grow: 1;
+
+}
+.profileListItem{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 70%);
+    width: 100%;
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid  hsl(0, 0%, 50%);
+
+}
+.statsNums{
+    font-weight: bold;
+}
