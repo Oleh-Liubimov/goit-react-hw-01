@@ -1,7 +1,5 @@
 import css from "./Profile.module.css"
 
-
-
 function Profile(userData) {
     return (
     <div className={css.wrapper}>
