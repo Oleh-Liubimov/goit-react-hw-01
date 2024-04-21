@@ -1,0 +1,9 @@
+.cardStatusOnline{
+    color: hsl(120, 89%, 42%);
+}
+.cardStatusOffline{
+    color: hsl(0, 100%, 50%);
+}
+.cardName{
+    font-weight: bold;
+}

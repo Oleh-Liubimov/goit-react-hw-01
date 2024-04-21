@@ -5,6 +5,7 @@ import userData from "./userData.json"
 import friends from "./friends.json"
 import FriendList from './components/friendList/FriendList'
 
+
 function App() {
   
 
