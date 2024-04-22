@@ -1,7 +1,9 @@
 .cardStatusOnline{
+    font-weight: 600;
     color: hsl(120, 89%, 42%);
 }
 .cardStatusOffline{
+    font-weight: 600;
     color: hsl(0, 100%, 50%);
 }
 .cardName{
