@@ -1,0 +1,15 @@
+.table{
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 20px;
+}
+.tableHeadText{
+    color: white;
+    background-color: hsl(0, 0%, 31%);
+    border: 2px solid black;
+}
+.bodyRow:nth-child(even){
+
+    background-color: hsl(0, 0%, 60%);
+    color:white
+}
